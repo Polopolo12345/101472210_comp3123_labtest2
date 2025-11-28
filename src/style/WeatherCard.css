@@ -1,0 +1,40 @@
+.weather-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  padding: 2rem;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+  margin-top: 1rem;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+.weather-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.weather-card img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1rem;
+}
+
+.weather-card .description {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.weather-card .weather-details p {
+  margin: 0.2rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+}

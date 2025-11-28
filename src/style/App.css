@@ -1,0 +1,23 @@
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #6fb1fc, #3a8dde, #0d47a1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.app-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.error-message {
+  color: #ffb3b3;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
